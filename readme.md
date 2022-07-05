@@ -1,9 +1,11 @@
-# Owl voice assistant
+# Voice assistant Library
 An offline privacy first voice assistant library
 
 ## Example
 An example implementation of a simple voice assistant can be found [here](https://github.com/Zed-Bailey/VoiceAssistantExample)
 
+## Building library
+To build your own jar use `./gradlew shadowJar`. The jar will be output in `build/libs/` you can then import it into your project 
 
 ## Implementing your own voice assistant
 To implement your own assistant, extended the abstract class `VoiceAssistant.Assistant` and implement the methods
