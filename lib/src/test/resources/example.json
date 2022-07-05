@@ -1,0 +1,30 @@
+[
+  {
+    "name": "musicControl",
+    "speech" : [
+      "$controlaction:action music",
+      "$controlaction:action song"
+    ],
+    "slots" : {
+      "controlaction" : ["pause", "play", "skip", "rewind", "shuffle"]
+    }
+  },
+  {
+    "name": "getWeather",
+    "speech" : [
+      "what's the weather in $*:location",
+      "weather in $*:location",
+      "get weather in $*:location",
+      "get the weather in $*:location"
+    ],
+    "slots" : {}
+  },
+  {
+    "name": "google",
+    "speech" : [
+      "google $>:search"
+    ],
+    "slots" : {}
+  }
+
+]
